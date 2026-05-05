@@ -1,0 +1,74 @@
+ssh-keygen
+cat $HOME/.ssh/*.pub
+mkdir repogit
+cd ropogit
+cd repogit
+git clone git@github.com:ulisessurco/TP_AySO.git
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os/release
+grep HOME_URL/etc/os/release
+grep HOME_URL /etc/os/release
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+whoami
+echo "Usuario=$(whoami) > datos_usuario.txt
+ls
+ls
+echo "Usuario=$(whoami) > datos_usuario.txt
+
+
+
+
+
+
+
+
+
+
+
+echo "Usuario=$(whoami) > datos_usuario.txt
+
+
+
+
+
+
+
+
+
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls
+add git .
+git add .
+git config --global user email "ulisessurcoet5@gmail.com"
+git config --global user .email "ulisessurcoet5@gmail.com"
+git config --global user.email "ulisessurcoet5@gmail.com"
+git config --global user.name "ulisessurco"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+git push
+grep "model name" /proc/cpinfo | head -n1 >> datos_usuario.txt
+git add datos_usuario.txt
+git commit -m "ADD:informacion de procesador en datos_usuarios.txt"
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+cat datos_usuarios.txt
+cat dato_usuarios.txt
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+cat datos_usuario.txt
+git add datos_usuarios.txt
+git add datos_usuario.txt
+git commit -m "ADD: Informacion de procesador en datos_usuario.txt"
+git push
+cat <<EOF>> README.md
+ALUMNO: ULISES SURCO
+DIV: 315 TURNO: NOCHE
+EOF
+
+git add README.md
+git commit -m "ADD: Añadiendo Readme y datos de Usuario"
+git push
+history -a
